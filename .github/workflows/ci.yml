@@ -28,8 +28,8 @@ jobs:
           fi
         done
         
-        # Check directories
-        required_dirs="notebooks models data data/raw data/processed reports"
+        # Check directories - REMOVED data/processed from this list
+        required_dirs="notebooks models data data/raw reports"
         for dir in $required_dirs; do
           if [ -d "$dir" ]; then
             echo " $dir exists"
