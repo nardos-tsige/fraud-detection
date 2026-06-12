@@ -3,3 +3,5 @@ __pycache__/
 venv/ 
 .vscode/ 
 data/raw/*.csv 
+"*.csv" 
+"data/processed/*.csv" 
