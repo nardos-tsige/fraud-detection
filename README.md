@@ -77,3 +77,4 @@ git clone https://github.com/nardos-tsige/fraud-detection.git
 cd fraud-detection
 pip install -r requirements.txt
 jupyter notebook
+"# Updated on $(date)" 
