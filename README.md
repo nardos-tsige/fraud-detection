@@ -79,9 +79,9 @@ pip install -r requirements.txt
 jupyter notebook
 "# Updated on $(date)" 
 
-## Business Recommendations
+## Bussiness Recommondations
 
-- Implement 1-hour cooling period for new accounts
-- Block devices used by more than 3 users
-- Flag purchases above $500 for manual review
-- Add 2FA for purchases between 1 AM and 5 AM
+- **Implement 1-hour cooling period for new accounts**
+- **Block devices used by more than 3 users**
+- **Flag purchases above $500 for manual review**
+- **Add 2FA for purchases between 1 AM and 5 AM**
