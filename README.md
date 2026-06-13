@@ -79,22 +79,6 @@ pip install -r requirements.txt
 jupyter notebook
 "# Updated on $(date)" 
 
-## Model Performance Results
-
-| Model | F1-Score | Precision | Recall |
-|-------|----------|-----------|--------|
-| Random Forest | 0.87 | 0.85 | 0.89 |
-| XGBoost | 0.85 | 0.83 | 0.87 |
-| Logistic Regression | 0.72 | 0.70 | 0.74 |
-
-## SHAP Top 5 Fraud Drivers
-
-1. time_since_signup_hours
-2. purchase_value
-3. users_per_device
-4. hour_of_day
-5. new_user_1h
-
 ## Business Recommendations
 
 - Implement 1-hour cooling period for new accounts
